@@ -1,5 +1,6 @@
 /* style.css */
 
+
 body {
   display: flex;
   justify-content: center;
@@ -7,7 +8,10 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+    background-image: url(imagens/wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .login-container {
@@ -16,7 +20,7 @@ body {
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
@@ -82,13 +86,6 @@ input[type="password"] {
   text-decoration: none;
   color: #666;
 }
-
-.facebook {
-  background-color: #3b5998;
-  color: #fff;
-}
-
-.google {
-  background-color: #db4437;
-  color: #fff;
+h1{
+  color: rgb(10, 10, 85);
 }
